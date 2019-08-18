@@ -109,7 +109,8 @@
     "tslint-config-prettier": "^1.15.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.0.3",
-    "vue": "2.5.16",
+    "vue": "2.6.10",
+    "vue-server-renderer": "2.6.10",
     "vuepress": "^0.14.11",
     "vuex": "^3.0.1"
   },

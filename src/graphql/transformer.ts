@@ -216,6 +216,8 @@ export default class Transformer {
     // Ignore internal fields
     if (fieldName.startsWith("$")) return false;
 
+    if (model.skipField(fieldName)) return false;
+
     // Ignore empty fields
     if (value === null || value === undefined) return false;
 
